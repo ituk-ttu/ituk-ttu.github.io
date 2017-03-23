@@ -1,0 +1,18 @@
+{
+  "name": "ituk-ttu.github.io",
+  "version": "1.0.0",
+  "authors": [
+    "Johannes Kümmel <jkymmel@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

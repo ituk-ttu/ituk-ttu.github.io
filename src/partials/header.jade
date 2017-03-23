@@ -1,0 +1,29 @@
+doctype HTML
+head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE-edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(name="theme-color" content="#870042")
+    title TTÜ IT-teaduskonna üliõpilaskogu
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css", rel="stylesheet")
+    link(rel="stylesheet" href="assets/css/master.css")
+    link(rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en")
+    link(rel="stylesheet" href="//fonts.googleapis.com/css?family=Cutive+Mono&subset=latin-ext")
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js")
+html
+    body
+        nav.navbar.navbar-default.navbar-static-top
+            .container
+                .navbar-header
+                    button.navbar-toggle.collapsed(data-toggle="collapse" data-target=".navbar-collapse")
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href="/")
+                        include ../svg/logo-white.svg
+                .collapse.navbar-collapse
+                    ul.nav.navbar-nav
+                            li: a(href="/") kodu
+                            li: a(href="brand.html") stiiliraamat
